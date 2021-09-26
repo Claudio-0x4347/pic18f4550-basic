@@ -1,0 +1,212 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"25 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\questao_02.c
+[v _main main `(v  1 e 1 0 ]
+"20 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Serial/serial.c
+[v _inicializarUART inicializarUART `(v  1 e 1 0 ]
+"53
+[v _enviarCaracter enviarCaracter `(v  1 e 1 0 ]
+"64
+[v _enviarString enviarString `(v  1 e 1 0 ]
+"15 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Temperatura/LM35.c
+[v _configuraLM35 configuraLM35 `(v  1 e 1 0 ]
+"27
+[v _lerLM35 lerLM35 `(d  1 e 4 0 ]
+"3185 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4936
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"5146
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+[s S79 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S82 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S89 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S94 . 1 `S79 1 . 1 0 `S82 1 . 1 0 `S89 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES94  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"6785
+[v _ADRES ADRES `VEus  1 e 2 @4035 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9756
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"10935
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"10938
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"11043
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"25 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\questao_02.c
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+[v main@temperatura temperatura `d  1 a 4 70 ]
+"69
+} 0
+"27 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Temperatura/LM35.c
+[v _lerLM35 lerLM35 `(d  1 e 4 0 ]
+{
+"32
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S424 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S429 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S432 . 4 `l 1 i 4 0 `d 1 f 4 0 `S424 1 fAsBytes 4 0 `S429 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S432  1 a 4 33 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 27 ]
+[s S500 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S503 . 2 `s 1 i 2 0 `us 1 n 2 0 `S500 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S503  1 a 2 37 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 58 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 51 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 56 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 63 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 62 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 55 ]
+"11
+[v ___fldiv@b b `d  1 p 4 39 ]
+[v ___fldiv@a a `d  1 p 4 43 ]
+"185
+} 0
+"20 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Serial/serial.c
+[v _inicializarUART inicializarUART `(v  1 e 1 0 ]
+{
+[v inicializarUART@bound_rate bound_rate `l  1 p 4 14 ]
+[v inicializarUART@modo modo `uc  1 p 1 18 ]
+"46
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"64 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Serial/serial.c
+[v _enviarString enviarString `(v  1 e 1 0 ]
+{
+[v enviarString@mensagem mensagem `*.25Cuc  1 p 2 1 ]
+"69
+} 0
+"53
+[v _enviarCaracter enviarCaracter `(v  1 e 1 0 ]
+{
+[v enviarCaracter@c c `Cuc  1 a 1 wreg ]
+[v enviarCaracter@c c `Cuc  1 a 1 wreg ]
+"55
+[v enviarCaracter@c c `Cuc  1 a 1 0 ]
+"57
+} 0
+"15 C:\Users\claud\OneDrive\Documentos\Drive UFG\Engenharia\Microcontroladores\Prova2\Atividade2.X\Temperatura/LM35.c
+[v _configuraLM35 configuraLM35 `(v  1 e 1 0 ]
+{
+"20
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
